@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_back"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        ></LinearLayout>
+    <com.yang.chinesechess1.GameView 
+        android:id="@+id/gameview"
+         android:layout_width="match_parent"
+        android:layout_height="400dp"
+        />
+    <LinearLayout 
+         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <Button 
+            android:id="@+id/newgame"
+            android:layout_width="@dimen/game_button_width"
+            android:layout_height="@dimen/game_button_height"
+            android:layout_weight="1"
+            android:text="新局"
+            />
+        <Button 
+            android:id="@+id/set"
+            android:layout_width="@dimen/game_button_width"
+            android:layout_height="@dimen/game_button_height"
+             android:layout_weight="1"
+            android:text="设置"
+            />
+        <Button 
+            android:id="@+id/undo"
+            android:layout_width="@dimen/game_button_width"
+            android:layout_height="@dimen/game_button_height"
+             android:layout_weight="1"
+            android:text="悔棋"
+            />
+    </LinearLayout>
+
+</LinearLayout>

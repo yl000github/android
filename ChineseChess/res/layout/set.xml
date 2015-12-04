@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/set_width"
+            android:layout_height="@dimen/set_height"
+            android:gravity="right|center"
+            android:text="红方"
+            android:textSize="@dimen/set_textsize" />
+
+        <Button
+            android:id="@+id/red"
+            android:layout_width="@dimen/set_width"
+            android:layout_height="@dimen/set_height"
+            android:text="人" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/set_width"
+            android:layout_height="@dimen/set_height"
+            android:gravity="right|center"
+            android:text="黑方"
+            android:textSize="@dimen/set_textsize" />
+
+        <Button
+            android:id="@+id/black"
+            android:layout_width="@dimen/set_width"
+            android:layout_height="@dimen/set_height"
+            android:text="人" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/set_width"
+            android:layout_height="@dimen/set_height"
+            android:gravity="right|center"
+            android:text="电脑智能"
+            android:textSize="@dimen/set_textsize" />
+
+        <Button
+            android:id="@+id/intelligence"
+            android:layout_width="@dimen/set_width"
+            android:layout_height="@dimen/set_height"
+            android:text="简单" />
+    </LinearLayout>
+  
+
+</LinearLayout>
